@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.container {
+    width: 90%;
+    margin-top: -1%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    background-color: #1b1823; /* Darker background color for header */
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px; /* Adjust the size of the logo */
+}
+
+.navigation ul {
+    margin: -2.5%;
+    padding: 0;
+    text-align: right;
+    list-style: none;
+    padding-top: -40px;
+    margin-top: -2.8%;
+    margin-bottom: -2.5%;
+  } 
+
+.navigation ul li {
+    text-align: center;
+    text-align: right;
+    display: inline;
+    margin-right: 15px;
+}
+
+.navigation ul li:last-child {
+    text-align: right;
+}
+
+.navigation ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Text color for navigation links */
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+.navigation ul li a:hover {
+    color: #ffd700; /* Hover color for navigation links */
+}
+
+/* Existing styles from the previous code are retained */
+
+.hero {
+    background-image: url('hero-background1.jpg'); /* Replace with the path to your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height of the hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color for hero content */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.btn {
+    margin-left: -70%;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffd700; /* Button background color */
+    color: #111; /* Button text color */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.btn:hover {
+    background-color: #ffc107; /* Button hover background color */
+}
+
+/* Existing styles from the previous code are retained */
+
+.menu {
+    background-color: #1e1e1e; /* Dark background color for the menu section */
+    padding: 50px 0;
+}
+
+.menu h2 {
+    text-align: center;
+    color: #fff; /* Text color for menu section heading */
+    margin-bottom: 30px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-item {
+    width: 300px; /* Adjust the width of each menu item */
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item h3 {
+    color: #ffd700; /* Text color for menu item title */
+}
+
+.menu-item p {
+    color: #fff; /* Text color for menu item description */
+    margin-bottom: 10px;
+}
+
+.menu-item span {
+    display: block;
+    color: #ffd700; /* Text color for menu item price */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Existing styles from the previous code are retained */
+
+.about {
+    background-color: #1e1e1e; /* Dark background color for the about section */
+    padding: 50px 0;
+}
+
+.about h2 {
+    text-align: center;
+    color: #fff; /* Text color for about section heading */
+    margin-bottom: 30px;
+}
+
+.about p {
+    color: #fff; /* Text color for about section paragraphs */
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+/* Existing styles from the previous code are retained */
+
+.testimonials {
+    background-color: #1e1e1e; /* Dark background color for the testimonials section */
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    text-align: center;
+    color: #fff; /* Text color for testimonials section heading */
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial img {
+    width: 100px; /* Adjust the size of the customer image */
+    border-radius: 50%; /* Make the customer image round */
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    color: #fff; /* Text color for testimonial content */
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.testimonial span {
+    color: #ffd700; /* Text color for testimonial author */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Existing styles from the previous code are retained */
+
+.special-offers {
+    background-color: #1e1e1e; /* Dark background color for the special offers section */
+    padding: 50px 0;
+}
+
+.special-offers h2 {
+    text-align: center;
+    color: #fff; /* Text color for special offers section heading */
+    margin-bottom: 30px;
+}
+
+.offer {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.offer img {
+    width: 200px; /* Adjust the size of the offer image */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.offer h3 {
+    color: #ffd700; /* Text color for offer title */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.offer p {
+    color: #fff; /* Text color for offer description */
+    font-size: 18px;
+}
+
+
+/* Existing styles from the previous code are retained */
+
+.contact {
+    background-color: #1e1e1e; /* Dark background color for the contact section */
+    padding: 50px 0;
+}
+
+.contact h2 {
+    text-align: center;
+    color: #fff; /* Text color for contact section heading */
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff; /* Border color for form input fields */
+    border-radius: 5px;
+    background-color: transparent; /* Transparent background color for form input fields */
+    color: #fff; /* Text color for form input fields */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Button background color */
+    color: #111; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #ffc107; /* Button hover background color */
+}
+
+.contact-info {
+    text-align: center;
+    color: #fff; /* Text color for contact information */
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+/* Existing styles from the previous code are retained */
+
+.footer {
+    background-color: #111; /* Dark background color for the footer section */
+    padding: 50px 0;
+    color: #fff; /* Text color for footer section */
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff; /* Text color for footer links */
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:last-child {
+    margin-right: 0;
+}
+
+.subscribe h3 {
+    color: #ffd700; /* Text color for subscribe heading */
+    margin-bottom: 20px;
+}
+
+.subscribe input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff; /* Border color for form input field */
+    border-radius: 5px;
+    background-color: transparent; /* Transparent background color for form input field */
+    color: #fff; /* Text color for form input field */
+}
+
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #ffd700; /* Button background color */
+    color: #111; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe button:hover {
+    background-color: #ffc107; /* Button hover background color */
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
